@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 
 import '../../core/core.dart';
 import '../../domain/domain.dart';
-import '../bloc/card_form_state.dart';
+import '../state_management/card_form_state.dart';
+import '../themes/app_text_styles.dart';
+import '../themes/credit_card_display_styles.dart';
 import 'animated_text_widget.dart';
-import 'styles/credit_card_display_styles.dart';
 
 class CreditCardDisplay extends StatelessWidget {
   const CreditCardDisplay({

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'src/core/core.dart';
 import 'src/presentation/presentation.dart';
 
 void main() {

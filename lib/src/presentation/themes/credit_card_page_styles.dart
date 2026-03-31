@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/theme/theme.dart';
+import 'themes.dart';
 
 abstract final class CreditCardPageStyles {
   static const Color backgroundColor = AppColors.scaffoldBackground;

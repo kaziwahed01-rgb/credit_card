@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../core/core.dart';
-import 'styles/form_fields_styles.dart';
+import '../themes/app_colors.dart';
+import '../themes/app_text_styles.dart';
+import '../themes/form_fields_styles.dart';
 
 class CustomFormField extends StatelessWidget {
   final String label;

@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/services.dart';
 
-import '../../core/core.dart';
-import '../bloc/bloc.dart';
+import '../state_management/bloc.dart';
+import '../themes/themes.dart';
 import 'form_fields.dart';
-import 'styles/card_form_section_styles.dart';
 
 class CardFormSection extends StatelessWidget {
   const CardFormSection({

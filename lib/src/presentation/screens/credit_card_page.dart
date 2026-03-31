@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../core/core.dart';
-import '../bloc/bloc.dart';
-import '../widgets/widgets.dart';
-import 'styles/credit_card_page_styles.dart';
+import '../components/components.dart';
+import '../state_management/bloc.dart';
+import '../themes/themes.dart';
 
 class CreditCardPage extends StatelessWidget {
   const CreditCardPage({super.key});

@@ -56,8 +56,8 @@ class CardFormBloc extends Bloc<CardFormEvent, CardFormState> {
   }
 
   void _onChanged(CardFormChanged event, Emitter<CardFormState> emit) {
-    final sanitizedCardNumber =
-        _digitsOnly(event.cardNumber)?.substring(0, _safeLength(event.cardNumber, 16));
+    final sanitizedCardNumber = _digitsOnly(event.cardNumber)
+        ?.substring(0, _safeLength(event.cardNumber, 16));
     final sanitizedCardHolder =
         event.cardHolder?.replaceAll(RegExp(r'[^a-zA-Z ]'), '');
     final sanitizedCvv =

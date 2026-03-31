@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/theme/theme.dart';
+import 'themes.dart';
 
 abstract final class FormFieldsStyles {
   static const double spacingAfterLabel = 8;
